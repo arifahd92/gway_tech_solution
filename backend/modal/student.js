@@ -13,7 +13,7 @@ const Student = sequelize.define ('Student', {
     allowNull: false,
   },
   class: {
-    type: DataTypes.STRING,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   marks: {

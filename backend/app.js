@@ -14,6 +14,7 @@ const corsOptions = {
 };
 const port = process.env.port || 4000;
 app.use (cors (corsOptions));
+app.use (express.urlencoded ());
 app.use (express.json ());
 app.use (studentRouter);
 sequelize
